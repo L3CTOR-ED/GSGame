@@ -62,15 +62,20 @@ header{
 #profile {
 
     background: grey;
-    width: 30%;
+    display: inline-block;
+
 
 }
 
 #avatar{
-    width: 65%;
+    width: 10vw;
     margin: 0.5vw;
 } 
 
 #profile p{
     background: blue;
+    font-family: "Black";
+    color: black;
+    font-size: 3.5vh;
+    padding: 0.5vw;
 }
