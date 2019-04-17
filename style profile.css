@@ -38,11 +38,13 @@ header{
     align-self: center;
 }
 #social_media{
+    font-family: "Regular";
     display: inline-block;
     margin-left: auto;
     align-self: center;
 }
 #auth{
+    font-family: "Regular";
     display: inline-block;
     margin-left: 2vw;
     align-self: center;
@@ -193,4 +195,8 @@ footer a{
 @font-face{
     font-family: "Black";
     src: url('fonts/Montserrat-Black.ttf')
+}
+@font-face{
+    font-family: "Regular";
+    src: url('fonts/Montserrat-Regular.ttf')
 }
