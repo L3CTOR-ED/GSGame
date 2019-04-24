@@ -21,10 +21,18 @@ header{
     color: white;
     font-size: 3.5vh;
 }
+header a{
+    padding: 2vh;
+}
+header a:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 1vh;
+    
+}
 #logo{
     display: inline-block;
     justify-self: flex-start;
-    width: 3vw;
+    width: 4vw;
     margin-right: 0.5vw;
 }
 #logoText{
@@ -318,6 +326,12 @@ form{
     font-size: 3vh;
     padding: 1vh;
 }
+#table_eventname{
+    border-top-left-radius: 1vh;
+}
+#table_eventcity{
+    border-top-right-radius: 1vh;
+}
 #tablelist td{
     color: rgb(60,60,60);
     background: rgba(166, 255, 200,0.8);
@@ -332,6 +346,65 @@ form{
     font-family: "Regular";
     font-size: 2.5vh;
     padding: 0.5vh;
+}
+ /* СОБЫТИЕ */
+
+#event_page{
+    padding-top: 20vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    width: 100vw;
+    display: flex;
+    background: rgb(130,130,130);
+    padding-bottom: 2vh;
+}
+#event_main{
+    background: rgba(37, 41, 38, 0.2);
+    border-radius: 2vh;
+    margin-right: 1vw;
+    height: 50vh;
+    text-align: center;
+    padding: 2vh 0vw;
+    font-family: "Regular";
+    font-size: 3vh;
+    max-width: 25vw;
+    color: rgb(230,230,230);
+}
+#event_main img{
+    width: 15vw;
+    border-radius: 50%;
+    background: white;
+}
+#event_main a{
+    background: rgb(37,66,74);
+    border: 0px;
+    border-radius: 1vh;
+    font-family: "Regular";
+    font-size: 3vh;
+    color: rgb(230,230,230);
+    padding: 1vh 1vw;
+    position: relative;
+    top: -7vh;
+}
+#event_main a:hover{
+    background: rgb(47,76,84);
+}
+#event_main a:focus{
+    background: rgb(71, 94, 100);
+}
+#event_descript{
+    background: rgba(67, 216, 124, 0.7);
+    height: 50vh;
+    border-radius: 1vh;
+    padding: 1.5vh;
+    font-family: "Regular";
+    font-size: 2vh;
+}
+h2{
+    font-family: "Regular";
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 1vh;
 }
 @font-face{
     font-family: "Black";
