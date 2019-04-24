@@ -26,29 +26,43 @@ header{
     margin-bottom: 10px;
     z-index: 100000000000000000000000000000000000000000000000000000000;
 }
+header a{
+    padding: 2vh;
+}
+
+
+header a:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 1vh;
+}
+
 #logo{
     display: inline-block;
     justify-self: flex-start;
     width: 4vw;
     margin-right: 0.5vw;
 }
+
 #logoText{
     display: inline-block;
     justify-self: flex-start;
     align-self: center;
 }
+
 #social_media{
     font-family: "Regular";
     display: inline-block;
     margin-left: auto;
     align-self: center;
 }
+
 #auth{
     font-family: "Regular";
     display: inline-block;
     margin-left: 2vw;
     align-self: center;
 }
+
 #wrapper{
     min-height: 3000px;
 }
@@ -63,12 +77,14 @@ header{
 }
 
 #profile {
+    border-radius: 0.5vw;
     width: 25vw;
     height: 45vh;
     background: grey;
     display: inline-block;
     float: left;
     color: white;
+    
     
 }
 
@@ -77,30 +93,28 @@ header{
     height: 10vw;
     display: inline-block;
     margin: 0.5vw;
+    border-radius: 8.5vw;
 } 
 
 #profile_d{
     display: inline-block;
 }
-#profile p{
-    width: 25vw;
-    background: blue;
-    font-family: "Black";
-    color: white;
-    font-size: 3.5vh;
-    padding: 0.5vw;
+
+
+.main-text{
+    display: inline-block;
+    justify-self: flex-start;
+    align-self: center;
+    font-size: 1.5vw;
+    
 }
 
 
-
-
 #events{
-    position: absolute;
-    width: 55%;
     background: grey;
-    display: inline-block;
-    float: left;
-    margin-left: 2vw;
+    margin-bottom: 1vw;
+    display: flow-root;
+    border-radius: 0.5vw;
 }
 #event{
     margin:0.5vw;
@@ -110,37 +124,35 @@ header{
 #events_d{
     width: 35vw;
     color: white;
+    border-radius: 0.5vw;
 }
 
-#events p{
-    width: 100%;
-    background: blue;
-    font-family: "Black";
-    color: white;
-    font-size: 3.5vh;
-    padding: 0.5vw;
-}
 
 #news{
-    margin-top: 5vw;
+    margin-top: 7vw;
     margin-left: ;
     width: 100%;
     height: 30vw;
     background: grey;
+    border-radius: 0.5vw;
     display: inline-block;
 }
 
 #new{
-    margin: 0.5vw;
-
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+    margin-right: 0.1vw;
 }
 
-#news p{
+.title{
     width: 100%;
     background: blue;
     font-family: "Black";
     color: white;
     font-size: 3.5vh;
+    border-top-left-radius: 0.5vh;
+    border-top-right-radius: 0.5vh;
     padding: 0.5vw;
 }
 
@@ -178,6 +190,42 @@ header{
     color: white;
     margin-top: 1vh;
 }
+/* френд лист*/
+#FNE{
+    display: flex;
+    align-content: flex-start;
+    display: inline-block;
+    float: left;
+    margin-left: 2vw;
+    position: absolute;
+    width: 55%;
+}
+
+#friend-list{
+    width: 100%;
+    background: rgb(100,100,100);
+    text-align: center;
+    margin-bottom: 1.5vw;
+    border-radius: 0.5vw;
+}
+
+.friend img{
+    width: 7vw;
+    border-radius: 8.5vw;
+    background: white;
+}
+
+
+.friend{
+    display: inline-block;
+    margin: 0.5vw;
+}
+
+.discription{
+    font-size: 1.5vw;
+    color: white;   
+    border-radius: 0.5vw;
+}
 /* ПОДВАЛ */
 
 footer{
@@ -192,6 +240,7 @@ footer a{
     color: white;
     margin: 3vh 2vw;
 }
+
 @font-face{
     font-family: "Black";
     src: url('fonts/Montserrat-Black.ttf')
