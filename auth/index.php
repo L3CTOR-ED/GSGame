@@ -26,7 +26,7 @@ if($_SESSION["name"]){
         <img src="../imgs/logo.png" id="logo">
         <p id="logoText">GSGame</p>
         <p id="social_media"><a href="https://vk.com">Вк</a>/<a href="https://instagram.com">Инстаграм</a></p>
-        <a href="auth/index.php" id="auth">Войти</a>
+        <a href="/auth/index.php" id="auth">Войти</a>
     </header>
     <div id="registration">
         <div id="regform">
